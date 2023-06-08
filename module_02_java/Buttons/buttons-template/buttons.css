@@ -1,0 +1,59 @@
+#container {
+    height: 600px;
+    width: 600px;
+    padding: 40px;
+    margin: 40px;
+    background-image: url("images/bg0.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#small-image {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    bottom: 10px;
+    right: 10px;
+    background-repeat: no-repeat;
+    background-image: url("images/0.jpg");
+    background-size: cover;
+}
+
+#container.click_1 {
+    height: 600px;
+    width: 600px;
+    background-image: url("images/bg1.jpg");
+}
+
+#container.click_1 #small-image {
+    background-image: url("images/1.jpg");
+}
+
+#container.click_2 #small-image {
+background-image: url("images/2.jpg");
+}
+
+#container.click_3 #small-image {
+background-image: url("images/3.jpg");
+}
+
+#container.click_2 {
+height: 600px;
+width: 600px;
+background-image: url("images/bg2.jpg");
+}
+
+#container.click_3 {
+height: 600px;
+width: 600px;
+background-image: url("images/bg3.jpg");
+}
+
+.buttongreen {
+background-color: green;
+}
+
+input:disabled {
+background-color: red;
+}
